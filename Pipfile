@@ -7,7 +7,7 @@ name = "pypi"
 cloudio-common-python = "*"
 
 [dev-packages]
-setuptools = "*"
+build = "*"
 twine = "*"
 
 [requires]
