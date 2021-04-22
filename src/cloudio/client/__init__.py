@@ -5,3 +5,8 @@
 import pkgutil
 
 __path__ = pkgutil.extend_path(__path__, __name__)
+
+import logging
+
+# Do not output logs if logging module is not configured
+logging.getLogger(__name__).addHandler(logging.NullHandler())
